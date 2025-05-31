@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX `auth_creds_client_id_unique` ON `auth_creds` (`client_id`);

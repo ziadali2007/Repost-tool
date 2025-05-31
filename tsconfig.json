@@ -1,0 +1,10 @@
+{
+  // This file is primarily used by 'tsc --build' and IDEs to understand project references.
+  // Compiler options here are generally minimal or inherited.
+  "files": [], // No files directly compiled by this config
+  "references": [
+    { "path": "apps/server" },
+    { "path": "apps/web" }, // References the solution-style tsconfig in apps/web
+    { "path": "packages/router" }
+  ]
+}
